@@ -1,0 +1,23 @@
+name: Satzzxzxx Labs site quality
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - '**/*.json'
+      - '**/*.xml'
+      - 'robots.txt'
+      - 'scripts/**'
+      - 'assets/**'
+      - '.github/workflows/site-quality.yml'
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-site:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate static site, sitemap, catalog, and draft privacy
+        run: python3 scripts/verify_site.py

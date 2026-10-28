@@ -1,0 +1,32 @@
+name: Collaboration or technical proposal
+description: Public, non-sensitive ideas for Labs projects, articles or open-source collaboration
+title: "[Collaboration] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Public issue: do not include secrets, private user details, unreported vulnerabilities, personal financial information or confidential business material."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Area
+      options:
+        - Product collaboration
+        - Open-source contribution
+        - Technical article or research
+        - Editorial correction
+        - Other public proposal
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Specific problem or proposal
+      description: What is useful, what exists now, and which public sources support the request?
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Public references
+      description: Repository, issue, article or documentation URLs if available. No private documents.

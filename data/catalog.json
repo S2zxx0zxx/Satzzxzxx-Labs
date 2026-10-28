@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "canonical_site": "https://s2zxx0zxx.github.io/Satzzxzxx-Labs/",
+  "brand": {
+    "name": "Satzzxzxx Labs",
+    "positioning": "Independent technology studio and open-source initiative",
+    "legal_entity_verified": false,
+    "repository": "https://github.com/S2zxx0zxx/Satzzxzxx-Labs"
+  },
+  "sections": [
+    {
+      "id": "products",
+      "path": "products/",
+      "description": "Products and future apps"
+    },
+    {
+      "id": "open-source",
+      "path": "open-source/",
+      "description": "Repositories and actual maintainer work"
+    },
+    {
+      "id": "journal",
+      "path": "blog/",
+      "description": "Technical articles with publication state"
+    },
+    {
+      "id": "research",
+      "path": "research/",
+      "description": "Methods and technical experiments"
+    },
+    {
+      "id": "reviews",
+      "path": "reviews/",
+      "description": "Independent app and website review standards"
+    },
+    {
+      "id": "about",
+      "path": "about/",
+      "description": "Attribution and studio principles"
+    },
+    {
+      "id": "contact",
+      "path": "contact/",
+      "description": "Verified public contact channels"
+    }
+  ],
+  "projects": [
+    {
+      "id": "finco-pilot",
+      "name": "FinCo-Pilot",
+      "type": "product",
+      "status": "public-product-website",
+      "detail_path": "products/finco-pilot/",
+      "source_url": "https://github.com/S2zxx0zxx/FinCo-pilot",
+      "public_url": "https://fincopilot.app/welcome/",
+      "attribution": "Source account S2zxx0zxx; live functionality separately verified"
+    },
+    {
+      "id": "uniloop",
+      "name": "UNILOOP",
+      "type": "product-project",
+      "status": "public-preview-repository",
+      "detail_path": "products/uniloop/",
+      "source_url": "https://github.com/meshishu/UNILOOP",
+      "public_url": "https://uniloop-alpha.vercel.app",
+      "attribution": "Upstream meshishu/UNILOOP; Satzzxzxx-OSS/UNILOOP is a fork"
+    },
+    {
+      "id": "openxdrive",
+      "name": "OpenXdrive",
+      "type": "open-source-project",
+      "status": "public-repository",
+      "detail_path": "products/openxdrive/",
+      "source_url": "https://github.com/Satzzxzxx-OSS/OpenXdrive",
+      "attribution": "Organization public repository; personal account also has a fork"
+    }
+  ],
+  "articles": [
+    {
+      "id": "how-we-publish-technical-work",
+      "title": "How we publish technical work without inventing results",
+      "category": "engineering",
+      "status": "published",
+      "path": "blog/how-we-publish-technical-work/",
+      "published_on": "2026-10-28",
+      "author": "Satzzxzxx Labs project repository",
+      "sources": [
+        "https://github.com/S2zxx0zxx/Satzzxzxx-Labs",
+        "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site"
+      ]
+    },
+    {
+      "id": "engineering-notes",
+      "title": "Engineering Notes",
+      "category": "engineering",
+      "status": "draft",
+      "path": "blog/engineering-notes/"
+    },
+    {
+      "id": "finance-app-review-framework",
+      "title": "How We Evaluate Finance Apps",
+      "category": "finance",
+      "status": "draft",
+      "path": "blog/finance-app-review-framework/"
+    },
+    {
+      "id": "third-party-app-reviews",
+      "title": "Reviewing Third-Party Apps Responsibly",
+      "category": "technology",
+      "status": "draft",
+      "path": "blog/third-party-app-reviews/"
+    }
+  ],
+  "public_routes": [
+    "",
+    "products/",
+    "products/finco-pilot/",
+    "products/uniloop/",
+    "products/openxdrive/",
+    "open-source/",
+    "blog/",
+    "blog/how-we-publish-technical-work/",
+    "research/",
+    "reviews/",
+    "about/",
+    "contact/"
+  ]
+}

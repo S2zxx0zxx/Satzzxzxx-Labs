@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://s2zxx0zxx.github.io/Satzzxzxx-Labs/sitemap.xml
