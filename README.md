@@ -2,7 +2,7 @@
 
 **Official public site:** https://s2zxx0zxx.github.io/Satzzxzxx-Labs/
 
-Satzzxzxx Labs is the umbrella identity for independent software products, future applications, public open-source work, maintainership, technical articles, research, and evidence-based app/website reviews. This is not a claim that a legal company has been incorporated.
+Satzzxzxx Labs is the technology studio for software development, practical engineering research, selected products, maintainership and open-source knowledge sharing within the founder-led PARAT ecosystem. PARAT is the parent brand, not a claim that a legal company has been incorporated. The studio keeps its own technical identity and public website.
 
 ## Explore
 
